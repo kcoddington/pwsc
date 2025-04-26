@@ -1,0 +1,2 @@
+# pwsc
+password strength checker

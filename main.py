@@ -77,6 +77,6 @@ if False in pw_comp.values():
 if pw_len < 12:
     print("Use a password 12 characters or longer.")
     print("- Maybe use a passphrase, such as: This_length_is_better44")
-    print("- Or use the first letter song in lyrics: Ycagwyw=St0nes\n")
+    print("- Or use the first letter in song lyrics: Ycagwyw=St0nes\n")
 if not pwned and entropy >= 60 and pw_len >= 12:
     print("This password should be good!")
